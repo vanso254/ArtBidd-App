@@ -1,0 +1,19 @@
+{
+  "name": "bidapp",
+  "version": "1.0.0",
+  "description": "Art bidding app",
+  "main": "bidapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanso254/ArtBidd-App.git"
+  },
+  "author": "Evans Oduor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanso254/ArtBidd-App/issues"
+  },
+  "homepage": "https://github.com/vanso254/ArtBidd-App#readme"
+}
