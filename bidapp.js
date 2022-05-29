@@ -20,6 +20,8 @@ app.use(bodyParser.urlencoded({
 //Setting up the view folder
 app.set('views', path.join(__dirname, 'views'))
 
+//setting up a static folder in public
+app.set(express.static(path.join(__dirname,'public')))
 //Setting up the view engine for pug file
 app.set('view engine', 'pug')
 
