@@ -1,0 +1,91 @@
+body {
+    background-color: #FCF3CF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    align-items: center;
+    padding: 30px, 10%;
+}
+
+li,
+a,
+button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #19c69b;
+}
+
+.navList {
+    list-style: none;
+   margin:10px;
+   background-color: dimgray;
+}
+
+.navList,
+li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.navList,
+li,
+a {
+    transition: all 0.3s ease 0s;
+}
+
+.navList,
+li,
+a:link {
+    text-decoration: none;
+}
+.navList,li,a:visited{text-decoration: none;}
+
+.navList,
+li,
+a:hover {
+    transition: all 0.3s ease 0s;
+    color: mediumslateblue;
+    text-decoration: none;
+}
+.navList,li,a:active{text-decoration: none;}
+
+.Button1 {
+    cursor: pointer;
+    float: left;
+    padding: 8px;
+    border-radius: 50%;
+    color: black;
+}
+
+.Button2 {
+    cursor: pointer;
+    float: right;
+    padding: 12px;
+    border-radius: 12px;
+    color: white;
+    background-color: blue;
+}
+
+.Button1:hover {
+    transition: o.4s ease 0s;
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+}
+
+.Button2:hover {
+    cursor: pointer;
+    float: right;
+    padding: 13px;
+    border-radius: 12px;
+    background-color: purple;
+}
