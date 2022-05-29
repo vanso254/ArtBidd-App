@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vanso254/ArtBidd-App/issues"
   },
-  "homepage": "https://github.com/vanso254/ArtBidd-App#readme"
+  "homepage": "https://github.com/vanso254/ArtBidd-App#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
