@@ -33,4 +33,4 @@ app.get('/', (req, res) => {
     res.render('index.pug')
 })
 
-app.listen(3000, () => console.log(`Bidapp app listening on port http//:localhost:${3000}!`))
+app.listen(3000, () => console.log(`Bidapp app listening on port http://localhost:${3000}`))
