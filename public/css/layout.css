@@ -23,8 +23,8 @@ button {
 
 .navList {
     list-style: none;
-   margin:10px;
-   background-color: dimgray;
+    margin: 10px;
+    background-color: dimgray;
 }
 
 .navList,
@@ -32,7 +32,6 @@ li {
     display: inline-block;
     padding: 0px 20px;
 }
-
 
 .navList,
 li,
@@ -45,7 +44,12 @@ li,
 a:link {
     text-decoration: none;
 }
-.navList,li,a:visited{text-decoration: none;}
+
+.navList,
+li,
+a:visited {
+    text-decoration: none;
+}
 
 .navList,
 li,
@@ -54,13 +58,18 @@ a:hover {
     color: mediumslateblue;
     text-decoration: none;
 }
-.navList,li,a:active{text-decoration: none;}
+
+.navList,
+li,
+a:active {
+    text-decoration: none;
+}
 
 .Button1 {
     cursor: pointer;
     float: left;
     padding: 8px;
-    border-radius: 50%;
+    border-radius: 12px;
     color: black;
 }
 
