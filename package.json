@@ -1,24 +1,32 @@
 {
-  "name": "bidapp",
-  "version": "1.0.0",
-  "description": "Art bidding app",
-  "main": "bidapp.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vanso254/ArtBidd-App.git"
-  },
-  "author": "Evans Oduor",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vanso254/ArtBidd-App/issues"
-  },
-  "homepage": "https://github.com/vanso254/ArtBidd-App#readme",
-  "dependencies": {
-    "css": "^3.0.0",
-    "express": "^4.18.1",
-    "pug": "^3.0.2"
-  }
+    "name": "bidapp",
+    "version": "1.0.0",
+    "description": "Art bidding app",
+    "main": "bidapp.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon bidapp.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vanso254/ArtBidd-App.git"
+    },
+    "author": "Evans Oduor",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vanso254/ArtBidd-App/issues"
+    },
+    "homepage": "https://github.com/vanso254/ArtBidd-App#readme",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "body-parser": "^1.20.0",
+        "css": "^3.0.0",
+        "dotenv": "^16.0.1",
+        "ejs": "^3.1.8",
+        "express": "^4.18.1",
+        "mongoose": "^6.3.6",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.16",
+        "pug": "^3.0.2"
+    }
 }
