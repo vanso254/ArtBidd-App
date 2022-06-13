@@ -68,9 +68,19 @@ a:active {
 .Button1 {
     cursor: pointer;
     float: left;
-    padding: 1px;
+    padding: 12px;
     border-radius: 8px;
     color: black;
+}
+
+#logo {
+    width: 15px;
+    height: auto;
+}
+
+#logo:hover {
+    width: 16px;
+    height: auto;
 }
 
 .Button2 {
@@ -80,15 +90,6 @@ a:active {
     border-radius: 12px;
     color: white;
     background-color: blue;
-}
-
-.Button1:hover {
-    transition: o.4s ease 0s;
-    cursor: pointer;
-    float: left;
-    padding: 10px;
-    border-radius: 12px;
-    color: black;
 }
 
 .Button2:hover {

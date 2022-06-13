@@ -1,20 +1,23 @@
 doctype html
 head
-  link(rel='stylesheet', href='./css/layout.css')
+  link(rel='stylesheet' href='./css/layout.css')
   title Home
 header
-  a(href='')
-    img.Button1(src='/logo.jpg', alt='logo')
-  button
-    nav.navList
-      ul
-        li
-          a(href='') Home
-        li
-          a(href='') Bids
-        li
-          a(href='') About
-        li
-          a(href='') Contact us
+  button#home.Button1
+    img#logo(src='./img/logo.png' alt='logo')
+    a(href='#home button as alogo')
+  nav.navList
+    ul
+      li
+        a(href='') Home
+      li
+        a(href='') Bids
+      li
+        a(href='') About
+      li
+        a(href='') Contact us
   button#Login.Button2(type='button') Login
-footer Copyright &copy;2022
+body
+    block content
+footer
+    | Copyright &copy;2022
