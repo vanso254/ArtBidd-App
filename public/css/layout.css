@@ -83,22 +83,20 @@ a:active {
     height: auto;
 }
 
-.Button2 {
-    cursor: pointer;
+#login {
     float: right;
-    padding: 24px;
+    margin-right: 35px;
+    padding: 12px;
     border-radius: 12px;
     background-color: blue;
+    color: whitesmoke;
 }
 
-#login {
-    color: white;
-}
-
-.Button2:hover {
-    cursor: pointer;
+#login:hover {
     float: right;
-    padding: 20px;
-    border-radius: 12px;
-    background-color: purple;
+    margin-right: 35px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: rgb(204, 75, 187);
+    color: whitesmoke;
 }
