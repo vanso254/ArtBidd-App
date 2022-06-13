@@ -86,16 +86,19 @@ a:active {
 .Button2 {
     cursor: pointer;
     float: right;
-    padding: 12px;
+    padding: 24px;
     border-radius: 12px;
-    color: white;
     background-color: blue;
+}
+
+#login {
+    color: white;
 }
 
 .Button2:hover {
     cursor: pointer;
     float: right;
-    padding: 13px;
+    padding: 20px;
     border-radius: 12px;
     background-color: purple;
 }
