@@ -1,22 +1,23 @@
 doctype html
 head
-  link(rel='stylesheet' href='./public/stylesheets/layout.css')
+  link(rel='stylesheet' href='./css/layout.css')
   title Home
 header
   button#home.Button1
-    img(src='../images/logo.png' alt='logo')
-    a(href='#home button as alogo')
+    img#logo(src='./img/logo.png' alt='logo')
+    a(href='login')
   nav.navList
     ul
       li
-        a(href='') Home
+        a(href='/') Home
       li
         a(href='') Bids
       li
         a(href='') About
       li
         a(href='') Contact us
-  button#Login.Button2(type='button') Login
+  a#login.Button2(href='/login')
+    Login
 body
     block content
 footer
