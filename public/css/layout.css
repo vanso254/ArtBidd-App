@@ -68,8 +68,8 @@ a:active {
 .Button1 {
     cursor: pointer;
     float: left;
-    padding: 8px;
-    border-radius: 12px;
+    padding: 1px;
+    border-radius: 8px;
     color: black;
 }
 
@@ -87,7 +87,7 @@ a:active {
     cursor: pointer;
     float: left;
     padding: 10px;
-    border-radius: 50%;
+    border-radius: 12px;
     color: black;
 }
 

@@ -24,10 +24,10 @@ app.set('views', path.join(__dirname, 'views'))
 app.set(express.static(path.join(__dirname, 'public')))
     //Setting up the view engine for pug file
 app.set('view engine', 'pug')
-
+    //setting a path to the public folder
 app.use('/css', express.static(path.resolve(__dirname, 'public/css')))
-app.use('/img', express.static(path.resolve(__dirname, 'public/js')))
-app.use('/js', express.static(path.resolve(__dirname, 'public/img')))
+app.use('/js', express.static(path.resolve(__dirname, 'public/js')))
+app.use('/img', express.static(path.resolve(__dirname, 'public/img')))
 
 app.get('/', (req, res) => {
     res.render('index.pug')
